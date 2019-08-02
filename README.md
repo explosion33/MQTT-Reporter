@@ -10,4 +10,5 @@ Installer located in DIST
 change data.txt to your settings (empty for privacy reasons)
 Also, the password entered into the txt file should be encrypted with a basic letter swap. See key in main.py
 
-
+setup.py is used with cxFreeze to create an MSI installer and build files.
+Enter `python setup.py bdist_msi` to create build Files and .msi
