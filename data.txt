@@ -1,0 +1,9 @@
+{
+    "listen": "cmnd/ESP_MiningRig1/POWER",
+    "publish": "tele/MiningRig1/STATE",
+    "address": "192.168.2.146",
+    "port": 1883,
+    "user": "pi",
+    "pass": "wVedT&nrii",
+    "name": "Rig1",
+}
