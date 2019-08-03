@@ -1,6 +1,6 @@
 {
     "listen": "cmnd/ESP_MiningRig1/POWER",
-    "publish": "tele/MiningRig1/STATE",
+    "publish": "tele/COMP_MiningRig1/STATE",
     "address": "###.###.#.#",
     "port": ####,
     "user": "##",
