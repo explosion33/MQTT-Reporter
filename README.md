@@ -1,14 +1,11 @@
 # MQTT Reporter
 
-A program to report status of programs to an MQTT broker. Used to send data for mining rigs
+An MQTT Device Status reporter
 
-It currently only transmits "on", but I plan to make it send Mining Data and other system info
+## Install
+Install on target device using the `.msi` installer found inside the `dist` folder
 
-Contains an MSI installer and build Files
-Installer located in `DIST` folder
+Create and add a shortcut to the installed `.exe` to the startup folder
 
-change `data.txt` to your settings (empty for privacy reasons)
-Also, the password entered into the txt file should be encrypted with a basic letter swap. See key in `main.py` (lines 20-24)
-
-setup.py is used with cxFreeze to create an MSI installer and build files.
-Enter `python setup.py bdist_msi` to create build Files and .msi
+## Usage
+connects to and listens on an MQTT server, reponds to `report` with `on` useful for keeping track of, and restarting devices
